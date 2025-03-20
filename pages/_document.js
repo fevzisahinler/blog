@@ -100,7 +100,7 @@ class MyDocument extends Document {
           <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
           <meta
             name="description"
-            content="Welcome to my personal blog where I share my musings. I am a Data Engineer passionate about Data Science, building pipelines and Automation."
+            content="Welcome to my personal blog where I blog about DevOps Engineering and Cloud. I am a DevOps Platform Engineer passionate about scalable systems, IaC and CI/CD and Backend."
           />
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

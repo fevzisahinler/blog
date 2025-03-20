@@ -128,31 +128,6 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
               <div className="prose max-w-none pt-10 pb-8 dark:prose-dark">{children}</div>
               <div className="grid place-items-center pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
                 <div className="flex items-center space-x-4">
-                  <TwitterShareButton
-                    url={postUrl}
-                    title={title}
-                    via={siteMetadata.socialAccount.twitter}
-                    className="flex items-center overflow-hidden rounded-full !bg-[#1da1f2] hover:scale-110"
-                  >
-                    <SocialIcon
-                      network="twitter"
-                      style={{ height: 35, width: 35 }}
-                      fgColor="#fff"
-                      bgColor="#1da1f2"
-                    />
-                  </TwitterShareButton>
-                  <FacebookShareButton
-                    url={postUrl}
-                    quote={title}
-                    className="flex items-center overflow-hidden rounded-full !bg-[#1877f2] hover:scale-110"
-                  >
-                    <SocialIcon
-                      network="facebook"
-                      style={{ height: 35, width: 35 }}
-                      fgColor="#fff"
-                      bgColor="#1877f2"
-                    />
-                  </FacebookShareButton>
                   <EmailShareButton
                     body={'Check out this blog'}
                     subject={title}
