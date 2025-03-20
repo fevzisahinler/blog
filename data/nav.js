@@ -5,14 +5,13 @@ export const navigation = {
     { name: 'Projects', href: '/projects' },
     { name: 'About', href: '/about' },
     { name: 'Contact', href: '/contact' },
-
-    { name: 'Now', href: '/now' },
-    { name: 'Stats', href: '/stats' },
-    { name: 'Guestbook', href: '/guestbook' },
-    { name: 'Recommends', href: '/recommends' },
     { name: 'Journey', href: '/journey' },
 
     /**
+     * { name: 'Now', href: '/now' },
+     * { name: 'Stats', href: '/stats' },
+     * { name: 'Recommends', href: '/recommends' },
+     * { name: 'Guestbook', href: '/guestbook' },
      * { name: 'Quotes', href: '/quotes' },
      * { name: 'Uses', href: '/uses' },
      * { name: 'Tags', href: '/tags' },

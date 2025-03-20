@@ -67,7 +67,9 @@ export default function AuthorLayout({ children, frontMatter }) {
                 animationDelay={300}
                 animationDuration={3000}
               >
-                {text1} Currently, I am focused on developing and automating distributed pipelines, leveraging DevOps principles and cloud-native technologies to ensure scalability, reliability, and efficiency at {' '}
+                {text1} Currently, I am focused on developing and automating distributed pipelines,
+                leveraging DevOps principles and cloud-native technologies to ensure scalability,
+                reliability, and efficiency at{' '}
                 <Link
                   href={'https://www.vodafone.com'}
                   className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
@@ -80,7 +82,7 @@ export default function AuthorLayout({ children, frontMatter }) {
             <p>
               This is what I am doing right{' '}
               <Link
-                href={'/now'}
+                href={'/about'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
               >
                 now
