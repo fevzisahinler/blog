@@ -87,12 +87,12 @@ export default function Timeline() {
           <span className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-red-200 ring-8 ring-white dark:bg-red-900 dark:ring-gray-900">
             <BsBuilding />
           </span>
-          <h3 className="text-base font-semibold text-gray-900 dark:text-white">Started College</h3>
+          <h3 className="text-base font-semibold text-gray-900 dark:text-white">Started University</h3>
           <time className="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            August 20th, 2018
+            September 20th, 2020
           </time>
           <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
-            Bachelor of Technology in Computer Science
+            Bachelor of Software Engineering in Computer Science
           </p>
         </li>
         <Disclosure>
