@@ -4,22 +4,10 @@ import Link from '@/components/Link'
 import Experience from '@/components/Experience'
 import experienceData from '@/data/experienceData'
 import { RoughNotation } from 'react-rough-notation'
-import { AiOutlineLinkedin, AiOutlineTwitter } from "react-icons/ai";
+import { AiOutlineLinkedin } from 'react-icons/ai'
 
 export default function AuthorLayout({ children, frontMatter }) {
-  const {
-    name,
-    avatar,
-    occupation,
-    company,
-    email,
-    twitter,
-    linkedin,
-    github,
-    text1,
-    text2,
-    text3,
-  } = frontMatter
+  const { name, avatar, occupation, company, text1 } = frontMatter
 
   return (
     <>
@@ -70,34 +58,13 @@ export default function AuthorLayout({ children, frontMatter }) {
               >
                 {text1} Currently, I am focused on developing and automating distributed pipelines,
                 leveraging DevOps principles and cloud-native technologies to ensure scalability,
-                reliability, and efficiency at{' '}
-                <Link
-                  href={'https://www.vodafone.com'}
-                  className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
-                >
-                  Accenture
-                </Link>
+                reliability, and efficiency.
               </RoughNotation>
             </p>
             <br />
-            <p>
-              This is what I am doing right{' '}
-              <Link
-                href={'/about'}
-                className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
-              >
-                now
-              </Link>
-            </p>
             <br />
             <p className="sm:block md:hidden lg:hidden">
-              I am always looking to learn new things. I am currently working on a few projects
-              related to
-              <span className="font-semibold">
-                {' '}
-                Natural Language Processing and Machine Learning.{' '}
-              </span>
-              At the same time I am{' '}
+              <span className="font-semibold"> </span>{' '}
               <RoughNotation
                 type="underline"
                 show={true}
@@ -106,43 +73,20 @@ export default function AuthorLayout({ children, frontMatter }) {
                 animationDuration={3000}
                 multiline={true}
               >
-                actively on the lookout for remote internships which I can pursue in field of Data
-                Science.
+
               </RoughNotation>
             </p>
             <p className="hidden md:block">
-              I am always looking to learn new things. I am currently working on a few projects
-              related to{' '}
-              <RoughNotation
-                animationDelay="1000"
-                animationDuration="3000"
-                type="highlight"
-                color="#0ea4e9"
-                strokeWidth="3"
-                show={true}
-              >
-                <span className="text-black dark:text-white">
-                  Natural Language Processing and Machine Learning.{' '}
-                </span>
-              </RoughNotation>
-              At the same time I am{' '}
-              <RoughNotation
-                type="underline"
-                show={true}
-                color="#FBCFE8"
-                animationDelay={1500}
-                animationDuration={3000}
-                multiline={true}
-              >
-                actively on the lookout for remote internships which I can pursue in field of Data
-                Science
-              </RoughNotation>
+              I’m always curious and open to learning new technologies. These days, I’m working on a cloud infrastructure, system design, and backend development with Go.
+              I'm especially interested in low-level engineering, Kubernetes internals, and tools that power scalable
+              scalable platforms.{' '}
             </p>
             <br />
             <p>
-              I am a strong advocate for open source and I am always interested in working on new
-              projects with new people. Feel free to reach out if you have anything to talk about,
-              you can reach me through{' '}
+              I’m supporter of open source and like collaborating on projects.
+              If you're working on something interesting or just want to chat about systems,
+              backend, or DevOps, feel free to reach out via email or WhatsApp. I’m always up for a
+              good tech conversation.{' '}
               <Link
                 href={'mailto:fevzisahinler@gmail.com'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
@@ -164,7 +108,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               </Link>{' '}
               or{' '}
               <Link
-                href={'https://api.whatsapp.com/send?phone=916358190818&text=hi'}
+                href={'https://api.whatsapp.com/send?phone=905340143233&text=hi'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
               >
                 Whatsapp
