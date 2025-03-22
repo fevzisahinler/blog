@@ -72,21 +72,19 @@ export default function AuthorLayout({ children, frontMatter }) {
                 animationDelay={1500}
                 animationDuration={3000}
                 multiline={true}
-              >
-
-              </RoughNotation>
+              ></RoughNotation>
             </p>
             <p className="hidden md:block">
-              I’m always curious and open to learning new technologies. These days, I’m working on a cloud infrastructure, system design, and backend development with Go.
-              I'm especially interested in low-level engineering, Kubernetes internals, and tools that power scalable
-              scalable platforms.{' '}
+              I’m always curious and open to learning new technologies. These days, I’m working on a
+              cloud infrastructure, system design, and backend development with Go. I'm especially
+              interested in low-level engineering, Kubernetes internals, and tools that power
+              scalable scalable platforms.{' '}
             </p>
             <br />
             <p>
-              I’m supporter of open source and like collaborating on projects.
-              If you're working on something interesting or just want to chat about systems,
-              backend, or DevOps, feel free to reach out via email or WhatsApp. I’m always up for a
-              good tech conversation.{' '}
+              I’m supporter of open source and like collaborating on projects. If you're working on
+              something interesting or just want to chat about systems, backend, or DevOps, feel
+              free to reach out via email or WhatsApp. I’m always up for a good tech conversation.{' '}
               <Link
                 href={'mailto:fevzisahinler@gmail.com'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"

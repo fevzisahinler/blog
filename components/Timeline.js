@@ -47,7 +47,9 @@ export default function Timeline() {
           <span className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-yellow-300 ring-8 ring-white dark:bg-yellow-700 dark:ring-gray-900">
             <SiLeetcode />
           </span>
-          <h3 className="text-base font-semibold text-gray-900 dark:text-white">Started New Position</h3>
+          <h3 className="text-base font-semibold text-gray-900 dark:text-white">
+            Started New Position
+          </h3>
           <time className="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
             Feb 2nd, 2022
           </time>
@@ -73,7 +75,9 @@ export default function Timeline() {
           <span className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-red-200 ring-8 ring-white dark:bg-red-900 dark:ring-gray-900">
             <BsBuilding />
           </span>
-          <h3 className="text-base font-semibold text-gray-900 dark:text-white">Started University</h3>
+          <h3 className="text-base font-semibold text-gray-900 dark:text-white">
+            Started University
+          </h3>
           <time className="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
             September 20th, 2020
           </time>
